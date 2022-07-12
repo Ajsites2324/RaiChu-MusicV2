@@ -21,7 +21,7 @@ from pytgcalls.types.input_stream.quality import (
 from youtubesearchpython import VideosSearch
 from Process.design.thumbnail import play_thumb, queue_thumb
 
-IMAGE_THUMBNAIL = "https://telegra.ph/file/519b6bc739756cb822039.png"
+IMAGE_THUMBNAIL = "https://te.legra.ph/file/9ed7e7ab0e77de28ea497.jpg"
 
 def ytsearch(query: str):
     try:
@@ -55,7 +55,7 @@ async def ytdl(link):
         return 0, stderr.decode()
 
 
-@Client.on_message(command(["vplay", f"vplay@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["vplay", f"vplay@{BOT_USERNAME}", "aj"]) & other_filters)
 async def vplay(c: Client, m: Message):
     await m.delete()
     replied = m.reply_to_message
@@ -183,8 +183,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/BotDuniyaXd"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/godzilla_chatting")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/about_ajeet"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/ajeet_bots")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -232,7 +232,7 @@ async def vplay(c: Client, m: Message):
                         else:
                             try:
                                 await loser.edit(
-                            f"**𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**𝘼𝙅𝙀𝙀𝙏 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                                 await call_py.join_group_call(
                                     chat_id,
@@ -265,8 +265,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/BotDuniyaXd"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/godzilla_chatting")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/about_ajeet"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/ajeet_bots")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -310,7 +310,7 @@ async def vplay(c: Client, m: Message):
                     else:
                         try:
                             await loser.edit(
-                            f"**𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**𝘼𝙅𝙀𝙀𝙏 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
