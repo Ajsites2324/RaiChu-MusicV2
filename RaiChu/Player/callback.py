@@ -41,7 +41,7 @@ Feel free to add me to your groups.
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕",
+                        "🥺 Add Me Baby 🥺",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ]
@@ -92,7 +92,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 🤷 » /skip - To Skip current song
 
-🤷 » /repo - To get the repo of RaiChu-Music
+🤷 » /repo - To get the repo of Ajeet-Music
 
 🙋 » /end - To end play song in vc.""",
         reply_markup=InlineKeyboardMarkup(
