@@ -63,7 +63,7 @@ Feel free to add me to your groups.
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕",
+                        "🥺 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 🥺",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ]
@@ -76,13 +76,13 @@ Feel free to add me to your groups.
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f01f58c3d9b187ae1d8a1.jpg",
+        photo=f"https://te.legra.ph/file/9ed7e7ab0e77de28ea497.jpg",
         caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/AMANTYA1/RaiChu-MusicV2")
+                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/Ajsites2324/RaiChu-MusicV2")
                 ]
             ]
         ),
